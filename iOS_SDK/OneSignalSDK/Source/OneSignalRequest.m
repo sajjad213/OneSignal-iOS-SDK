@@ -42,6 +42,7 @@
 
 -(NSMutableURLRequest *)request {
     //build URL
+    NSLog(@"ONESIGNALLLLLLLL.......BASEURL:\n%@XXXXXXXXXXX",SERVER_URL);
     let urlString = [[SERVER_URL stringByAppendingString:API_VERSION] stringByAppendingString:self.path];
     
     let request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:urlString]];
