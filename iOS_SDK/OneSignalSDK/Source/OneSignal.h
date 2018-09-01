@@ -348,6 +348,7 @@ typedef NS_ENUM(NSUInteger, ONE_S_LOG_LEVEL) {
 @property (class) OSNotificationDisplayType inFocusDisplayType;
 
 + (NSString*)app_id;
++ (NSString*)sdkBaseURL;
 + (NSString*)sdk_version_raw;
 + (NSString*)sdk_semantic_version;
 
