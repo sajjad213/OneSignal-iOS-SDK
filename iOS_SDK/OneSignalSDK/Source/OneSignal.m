@@ -118,6 +118,7 @@ NSString* const kOSSSettingsKeyPromptBeforeOpeningPushURL = @"kOSSSettingsKeyPro
 
 @implementation OneSignal
 
+NSString* const SDKBaseURL = SERVER_URL;
 NSString* const ONESIGNAL_VERSION = @"020807";
 static NSString* mSDKType = @"native";
 static BOOL coldStartFromTapOnNotification = NO;
