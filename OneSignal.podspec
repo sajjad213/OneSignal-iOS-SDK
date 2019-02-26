@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "Joseph Kalash" => "joseph@onesignal.com", "Josh Kasten" => "josh@onesignal.com" , "Brad Hesse" => "brad@onesignal.com"}
   
-  s.source           = { :git => "https://github.com/Rash-ML/OneSignal-iOS-SDK.git", :commit => '573196a211e151460be20711abe547f335699fe9' }
+  s.source           = { :git => "https://github.com/sajjad213/OneSignal-iOS-SDK.git", :commit => 'aeaafa9364875f84641d2e284da585801be0b10a' }
   
   s.platform     = :ios
   s.requires_arc = true
